@@ -11,8 +11,8 @@ console.log(data);
 data[0] = ['Rome', 'Italy'];
 console.log(data);
 
-// error
+// error 代入不可
 // data[0] = 'XXX';
 
-// error
+// error 代入不可
 // data[0] = [10, 20];

@@ -1,5 +1,6 @@
 export {};
 
+// number、またはstringを保持する配列型の変数
 const values: (number | string)[] = ['red', 12, 15, 'blue'];
 console.log(values);
 

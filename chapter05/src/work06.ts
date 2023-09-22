@@ -10,8 +10,8 @@ console.log(data);
 data[0] = ['理科', 80];
 console.log(data);
 
-// error
+// error 代入不可
 // data[0] = "xxx";
 
-// error
+// error 代入不可
 // data[0] = [true,false];
