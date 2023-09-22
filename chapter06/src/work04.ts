@@ -1,5 +1,6 @@
 export {};
 
+// アロー演算子での型注釈
 const add = (num1: number, num2: number): number => {
   const answer: number = num1 + num2;
   return answer;

@@ -1,5 +1,6 @@
 export {};
 
+// 引数にレストパラメータを設定
 const sum = (...nums: number[]): number => {
   let total = 0;
   for (const value of nums) {

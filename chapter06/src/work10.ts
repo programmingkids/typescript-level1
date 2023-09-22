@@ -1,5 +1,6 @@
 export {};
 
+// ユニオン型の戻り値
 const getEven = (num: number): number | boolean => {
   if (num % 2 === 0) {
     return num;

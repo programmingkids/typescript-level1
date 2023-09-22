@@ -1,5 +1,6 @@
 export {};
 
+// ユニオン型の引数
 const showNumber = (data: string | number): void => {
   if (typeof data === 'string') {
     console.log(data.length);
