@@ -1,5 +1,6 @@
 export {};
 
+// すべて読み込み専用
 const student = {
   name: 'Bob',
   score: {
@@ -10,15 +11,15 @@ const student = {
 
 console.log(student);
 
-// error
+// error 代入不可
 // student.name = 'Meg';
 
-// error;
+// error 代入不可
 // student.score = {
 //   english: 50,
 //   math: 50,
 // };
 
-// error
+// error 代入不可
 // student.score.english = 100;
 // student.score.math = 100;

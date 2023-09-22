@@ -1,5 +1,6 @@
 export {};
 
+// ageはオプショナルパラメータ
 const user: {
   name: string;
   age?: number;

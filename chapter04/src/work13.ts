@@ -10,6 +10,7 @@ const user: {
   job: 'Magician',
 };
 
+// 分割代入
 const { name, age } = user;
 
 console.log(name);

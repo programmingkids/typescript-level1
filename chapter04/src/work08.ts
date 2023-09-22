@@ -1,10 +1,12 @@
 export {};
 
+// Hero型エイリアス
 type Hero = {
   name: string;
   hp: number;
 };
 
+// Magician型エイリアス
 type Magician = {
   name: string;
   mp: number;

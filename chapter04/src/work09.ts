@@ -1,5 +1,6 @@
 export {};
 
+// ageは読み込み専用
 const user: {
   name: string;
   readonly age: number;
@@ -14,5 +15,5 @@ console.log(user.age);
 user.name = 'Donald';
 console.log(user.name);
 
-// error
+// error 代入不可
 // user.age = 16;

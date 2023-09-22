@@ -1,5 +1,6 @@
 export {};
 
+// オブジェクト型の変数
 const user: {
   name: string;
   age: number;

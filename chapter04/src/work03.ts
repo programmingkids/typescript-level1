@@ -1,5 +1,6 @@
 export {};
 
+// オブジェクト型の変数
 const box: {
   width: number;
   height: number;

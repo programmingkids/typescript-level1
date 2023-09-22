@@ -1,16 +1,19 @@
 export {};
 
+// Uesr型エイリアス
 type User = {
   name: string;
   age: number;
 };
 
+// Address型エイリアス
 type Address = {
   prefecture: string;
   address: string;
   postalcode: number;
 };
 
+// インターセクション型の変数
 const userInfo: User & Address = {
   name: 'John',
   age: 15,

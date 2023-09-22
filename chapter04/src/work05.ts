@@ -1,5 +1,6 @@
 export {};
 
+// インデックスシグネチャー
 const user: {
   [key: string]: string;
 } = {
@@ -12,5 +13,5 @@ console.log(user.name);
 console.log(user.hobby);
 console.log(user.address);
 
-// error
+// error 代入不可
 // user.age = 17;
