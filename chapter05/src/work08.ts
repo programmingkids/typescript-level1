@@ -8,9 +8,3 @@ type Character = {
 };
 
 // Character型を保持する配列型の変数
-const users: Character[] = [
-  { name: 'Elsa', hp: 20, job: 'Magician' },
-  { name: 'Anna', hp: 10, job: 'Hero' },
-  { name: 'Ariel', hp: 30, job: 'Fighter' },
-];
-console.log(users);
