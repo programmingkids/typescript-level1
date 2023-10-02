@@ -11,7 +11,3 @@ const user: {
 };
 
 // 分割代入
-const { name, age } = user;
-
-console.log(name);
-console.log(age);

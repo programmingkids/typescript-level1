@@ -11,6 +11,3 @@ const user: {
 };
 
 // 分割代入とレストパラメータ
-const { age, ...other } = user;
-console.log(age);
-console.log(other);

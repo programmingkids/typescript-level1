@@ -13,13 +13,5 @@ type Color = {
 };
 
 // インターセクション型Box
-type ColorBox = Box & Color;
 
 // ColorBox型の変数
-const colorBox: ColorBox = {
-  width: 100,
-  height: 80,
-  background: 'red',
-  border: 'orange',
-};
-console.log(colorBox);
