@@ -12,10 +12,5 @@ type Player = {
 // 以下の部分に処理を作成します。これより上部は修正しません
 // Player型の変数「p」を宣言して、代入可能な値を代入します
 // 代入可能な値であれば、何でも構いません
-const p: Player = {
-  name: 'Bob',
-  age: 15,
-  job: '勇者',
-};
+
 // Player型の変数「p」を表示します
-console.log(p);
