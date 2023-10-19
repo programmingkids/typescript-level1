@@ -5,12 +5,12 @@ type SubjectType = '国語' | '数学' | '英語' | '理科' | '社会';
 
 type ScoreType = [SubjectType, number];
 
-type ScoresType = ScoreType[];
+type ScoreTypes = ScoreType[];
 
 type Student = {
   name: string;
   favorite: SubjectType;
-  scores: ScoresType;
+  scores: ScoreTypes;
 };
 
 // 以下の部分に処理を作成します。これより上部は修正しません
